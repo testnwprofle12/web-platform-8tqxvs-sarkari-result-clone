@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sarkari Result Clone</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="assets/img/favicon.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial;
+      }
+      a {
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .outer {
+        height: 1200px;
+        width: 2000px;
+        //border: 1px solid red;
+        margin: 0px auto;
+      }
+      .header {
+        height: 170px;
+        width: 1000px;
+        background: #ab183d;
+      }
+      .logo {
+        height: 180px;
+        width: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: left;
+      }
+      .title {
+        height: 180px;
+        width: 820px;
+        float: right;
+        text-align: center;
+        color: #fff;
+      }
+      .title .heading {
+        padding-top: 40px;
+        font-size: 42px;
+        font-weight: 700;
+        margin: 0;
+      }
+      .title .sub_heading {
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+      }
+      .navbar {
+        height: 50px;
+        width: 1000px;
+        background: #000;
+        line-height: 50px;
+      }
+      .navbar ul {
+        margin: 0;
+        padding: 0;
+      }
+      .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        height: 50px;
+        width: 121px;
+        text-align: center;
+        border-right: 1px solid #fff;
+      }
+      .navbar ul li a {
+        color: #fff;
+      }
+      .latest_news {
+        height: 25px;
+        width: 1000px;
+        text-align: center;
+        line-height: 25px;
+      }
+      .latest_news a {
+        font-weight: bold;
+        color: #004b91;
+      }
+      .join_us{
+        height:50px;
+        width:1000px;
+        text-align:center;
+        line-height:50px;
+      }
+      .join_us a{
+        background:#0000A0;
+        color:#fff;
+        font-weight:bold;
+        padding:10px;
+      }
+      .online{
+        height:0px;
+        width:1000px;
+        background:red;
+      }
+      .box{
+        height:56px;
+        width:240px;
+        background:orange;
+        margin:2px;
+        float:left;
+        text-align:center;
+        font-size:20px;
+      }
+      .online .box{
+        font-weight:bold;
+        color:#fff;
+      }
+      .container{
+        min-height:1500px;
+        height:auto;
+        width:1000px;
+        //background:#ccc;
+      }
+      .card{
+        min-height:250px;
+        height: auto;
+        width:300px;
+        border:2px solid #ab183d;
+        float:left;
+        margin:15px;
+      }
+      .card-header{
+        height:40px;
+        width:100%;
+        text-align:center;
+        line-height:40px;
+        color:#fff;
+        font-weight:bold;
+        font-size:22px;
+        background:#ab183d;
+      }
+      .card-body{
+        height:210px;
+        width:100%;
+      }
+      .card-body ul li{
+        height:30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer">
+      <div class="header">
+        <div class="logo">
+          <img src="assets/img/logo.png" alt="" />
+        </div>
+        <div class="title">
+          <p class="heading">SARKARI RESULT</p>
+          <p class="sub_heading">www.SARKARIRESULT.COM</p>
+        </div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Latest Jobs</a></li>
+          <li><a href="">Result</a></li>
+          <li><a href="">Admit Card</a></li>
+          <li><a href="">Answer Key</a></li>
+          <li><a href="">Syllabus</a></li>
+          <li><a href="">Admission</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+      </div>
+      <div class="latest_news">
+        <a href="#">Sarkari Result Android Apps</a> ||
+        <a href="#">Sarkari Result Youtube Channel</a> ||
+        <a href="#">Sarkari Result Apple / IOS Apps</a>||
+        <a href="#"> Follow Instagram</a>
+      </div>
+      <div>
+        <marquee behaviour="alternate" onmouseover="stop()" onmouseout="start()">
+      <a href="#">CUET UG Answer Key 2023</a> ||
+      <a href="#">TGT,PGT Primary Teacher Online Form 2023</a> | |
+      <a href="#">MP Police Constable Online Form 2023</a>
+        </marquee>
+        </div>
+        <div>
+        <marquee behaviour="alternate" onmouseover="stop()" onmouseout="start()">
+       <a href="#">ITI Admissions Online Form 2023</a> || 
+       <a href="#">Officer Grade B Admit Card 2023</a> ||
+       <a href="#"> UP ANM GNM Online Form 2023</a>
+        </marquee>
+        </div>
+        <div class="join_us">
+          <a href="#">Join on Facebook</a>
+        </div>
+        <div class="online">
+            <div class="box"><a href="#" style="background:#868A08;">UPBED 2023 <br> Entrance Result</a></div>
+             <div class="box"><a href="#" style="background:#0404B4;">Bihar Constable <br>Apply Online</a></div>
+             <div class="box"><a href="#" style="background:#FB5E03;">SSB Various Post <br>
+             Apply Online</a></div>
+             <div class="box"><a href="#" style="background:#8C0101;">SSC MTS 2023 <br>
+             Apply Online</a></div>
+        </div>
+        <div class="online">
+        <div class="box"><a href="#" style="background:#FB0303;">BPSC School Teacher <br>
+        Apply Online</a></div>
+         <div class="box"><a href="#" style="background:#0B610B;">MP Constable 2023 <br>
+         Apply Online</a></div>
+         <div class="box"><a href="#" style="background:#FF00BF;">UPDELED 2023 <br>
+         Apply Online</a></div>
+         <div class="box"><a href="#" style="background:#0080FF;">SSC MTS 2024 <br>
+         Apply Online</a></div>
+         <div class="container">
+                <div class="card">
+                  <div class="card-header">
+                      Result
+                  </div>
+                  <div class="card-body">
+                    <ul>
+                      <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+                      <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+                      <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+                      <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+                      <li><a href="#"></a>NTA CMAT 2023 Result</li>
+                      <li><a href="#"></a>NTA GPAT 2023 Result</li>
+                      <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card">
+                <div class="card-header">
+                    Admit Card
+                </div>
+                <div class="card-body">
+                  <ul>
+                    <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+                    <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+                    <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+                    <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+                    <li><a href="#"></a>NTA CMAT 2023 Result</li>
+                    <li><a href="#"></a>NTA GPAT 2023 Result</li>
+                    <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="card">
+              <div class="card-header">
+                  Latest Jobs
+              </div>
+              <div class="card-body">
+                <ul>
+                  <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+                  <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+                  <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+                  <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+                  <li><a href="#"></a>NTA CMAT 2023 Result</li>
+                  <li><a href="#"></a>NTA GPAT 2023 Result</li>
+                  <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+                </ul>
+              </div>
+            </div>
+             
+            <div class="card">
+            <div class="card-header">
+                Answer Key
+            </div>
+            <div class="card-body">
+              <ul>
+                <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+                <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+                <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+                <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+                <li><a href="#"></a>NTA CMAT 2023 Result</li>
+                <li><a href="#"></a>NTA GPAT 2023 Result</li>
+                <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+              </ul>
+            </div>
+          </div>
+
+        <div class="card">
+        <div class="card-header">
+            Syllabus
+        </div>
+        <div class="card-body">
+          <ul>
+            <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+            <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+            <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+            <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+            <li><a href="#"></a>NTA CMAT 2023 Result</li>
+            <li><a href="#"></a>NTA GPAT 2023 Result</li>
+            <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="card">
+      <div class="card-header">
+          Admission
+      </div>
+      <div class="card-body">
+        <ul>
+          <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+          <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+          <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+          <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+          <li><a href="#"></a>NTA CMAT 2023 Result</li>
+          <li><a href="#"></a>NTA GPAT 2023 Result</li>
+          <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="card">
+    <div class="card-header">
+        Certificate Verification
+    </div>
+    <div class="card-body">
+      <ul>
+        <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+        <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+        <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+        <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+        <li><a href="#"></a>NTA CMAT 2023 Result</li>
+        <li><a href="#"></a>NTA GPAT 2023 Result</li>
+        <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card">
+  <div class="card-header">
+      Important
+  </div>
+  <div class="card-body">
+    <ul>
+      <li><a href="#"></a>MPESB Middle School TET Result 2023</li>
+      <li><a href="#"></a>Delhi University DU Non Teaching Various Post Result 2023</li>
+      <li><a href="#"></a>UPSSSC Junior Engineer 2016 Final Result</li>
+      <li><a href="#"></a>Bihar ITI CAT 2023 Result with Rank Card</li>
+      <li><a href="#"></a>NTA CMAT 2023 Result</li>
+      <li><a href="#"></a>NTA GPAT 2023 Result</li>
+      <li><a href="#"></a>UPSC IFS 2022 Final Result</li>
+    </ul>
+  </div>
+</div>
+
+         </div>
+      </div>
+  </body>
+</html>
